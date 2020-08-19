@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="569dp">
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="389dp"
+            android:layout_height="101dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="329dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_view_plant_detail"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="475dp"
+            android:layout_marginEnd="90dp"
+            android:background="#59E95C"
+            android:onClick="openLogin"
+            android:text="View"
+            android:textColor="#FCFCFC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_available_rooms"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="530dp"
+            android:text="2 Rooms Available"
+            android:textAlignment="center"
+            android:textColor="#4CAF50" />
+
+        <TextView
+            android:id="@+id/txt_min_price"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="443dp"
+            android:layout_marginEnd="114dp"
+            android:text="900 KR"
+            android:textAlignment="textStart"
+            android:textColor="#32C237"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lbl_min_price"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="446dp"
+            android:layout_marginEnd="207dp"
+            android:text="Price from:"
+            android:textAlignment="center"
+            android:textColor="#5B3C3F3C"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_address"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="305dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="276dp"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_room_picture"
+            android:layout_width="match_parent"
+            android:layout_height="267dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="13dp"
+            android:background="#1B5C5959" />
+    </RelativeLayout>
+</LinearLayout>
